@@ -1,0 +1,43 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    /* caso nao haja internet, sera utilizada a fonte sans serif */
+    margin: 0px;
+}
+
+#logo {
+    text-align: center;
+}
+
+.menu {
+    list-style-type: none;
+    /* display: inline-flex; */
+    text-align: center;
+    padding: 0px;
+}
+
+.menu li {
+    margin-right: 10px;
+    display: inline-block;
+}
+
+a{
+    text-decoration: none;
+}
+
+.bannerHome {
+    width: 100%;
+    height: 500px;
+    background-image: url(../img/jane.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+        /* background-size: 100%; é menos preciso que o cover */
+    background-position: center;
+        /* overflow: hidden; */
+}
+
+.rodapeHome {
+    font-weight: bold; /*peso da fonte*/
+    text-align: center;
+    background-color: #c5c5c5;
+    padding: 10px;
+}
