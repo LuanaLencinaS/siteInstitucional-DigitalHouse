@@ -40,4 +40,58 @@ a{
     text-align: center;
     background-color: #c5c5c5;
     padding: 10px;
+    margin-top: 30px;
+}
+
+#titulo {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: -10px;
+}
+#contact {
+    text-align: left
+}
+
+.sobre {
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.semDestaque {
+    font-size: 12px;
+    font-weight: initial;
+}
+
+.divFotoAbout {
+    text-align: center;
+    margin-bottom: 40px;
+}
+.fotoAbout {
+    width: 330px;
+}
+
+.conteudo {
+    margin: 0 10%;
+    font-weight: bold;
+}
+.simples {
+    font-weight: initial;
+}
+
+.linkContato{
+    text-decoration: underline;
+}
+
+.videos {
+
+}
+
+.listaNone {
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+.listaNone li {
+    margin: 10px;
 }
