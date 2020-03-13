@@ -9,7 +9,8 @@
         <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
-            <div>
+        <header>
+            <nav>
                 <!-- Menu e logo -->
                 
                 <h1 id="logo">
@@ -40,81 +41,119 @@
                         </a>
                     </li>
                 </ul>
-            </div>
+            </nav>
+        </header>
         
-            <div class="conteudo">
-                <h1 id="titulo contact">
-                    <a href="index.html">
-                        Contact
-                    </a>
-                </h1>
+        <main class="conteudo">
+
+            <section class="contact-form">
+                    <h1 id="titulo contact">
+                            <a href="index.html">
+                                Contact
+                            </a>
+                    </h1>
+
+                <form method="POST">
+                    <label>Name</label>
+                    <input type="text" name="nomeUsuario">
+
+                    <label>Email</label>
+                    <input type="email" name="emailUsuario">
+
+                    <label>Mensage</label>
+                    <textarea name="mensagemUsuario" id="" cols="30" rows="10"></textarea>
+
+                    <label>Como você encontrou?</label>
+                    <input type="radio" name="social" value="instagram">
+                    <label>Instagram</label>
+
+                    <input type="radio" name="social" value="youtube">
+                    <label>YouTube</label>
+
+                    <input type="radio" name="social" value="facebook">
+                    <label>Facebook</label>
+
+                    <input type="checkbox" name="newslatter">
+                    <label>Você quer saber mais sobre Jane Doe?</label>
+
+                    <button type="submit">Enviar</button>
+                </form>
+
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.047976131209!2d-46.67753058555736!3d-23.602612284662445!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce50ab7feb4519%3A0x739f0ddb0439cf94!2sDigital%20House%20S%C3%A3o%20Paulo!5e0!3m2!1spt-BR!2sbr!4v1584131269787!5m2!1spt-BR!2sbr" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+
+            </section>
+
+            <section class="contact-person">
 
                 <div class="contato">
-                        <p>MANAGEMENT | Karen Blanche</p>
-                        <p class="semDestaque">
-                            email: 
-                            <a href="#" class="linkContato">
-                                info@mysite.com
-                            </a>
-                            <br>
-                            <br>
-                            phone: 
-                            <a href="#" class="linkContato">
-                                123-456-7890
-                            </a>
-                        </p>
+                    <hr>
+                    
+                    <p>MANAGEMENT | Karen Blanche</p>
+                    <p class="semDestaque">
+                        email: 
+                        <a href="#" class="linkContato">
+                            info@mysite.com
+                        </a>
+                        <br>
+                        <br>
+                        phone: 
+                        <a href="#" class="linkContato">
+                            123-456-7890
+                        </a>
+                    </p>
 
-                        <hr>
+                    <hr>
 
-                        <p>BOOKING | Daniel Ku</p>
-                        <p class="semDestaque">
-                            email: 
-                            <a href="#" class="linkContato">
-                                info@mysite.com
-                            </a>
-                            <br>
-                            <br>
-                            phone: 
-                            <a href="#" class="linkContato">
-                                123-456-7890
-                            </a>
-                        </p>
+                    <p>BOOKING | Daniel Ku</p>
+                    <p class="semDestaque">
+                        email: 
+                        <a href="#" class="linkContato">
+                            info@mysite.com
+                        </a>
+                        <br>
+                        <br>
+                        phone: 
+                        <a href="#" class="linkContato">
+                            123-456-7890
+                        </a>
+                    </p>
 
-                        <hr>
+                    <hr>
 
-                        <p>LABEL | Wix Records, Jake Coldham</p>
-                        <p class="semDestaque">
-                            email: 
-                            <a href="#" class="linkContato">
-                                info@mysite.com
-                            </a>
-                            <br>
-                            <br>
-                            phone: 
-                            <a href="#" class="linkContato">
-                                123-456-7890
-                            </a>
-                        </p>
+                    <p>LABEL | Wix Records, Jake Coldham</p>
+                    <p class="semDestaque">
+                        email: 
+                        <a href="#" class="linkContato">
+                            info@mysite.com
+                        </a>
+                        <br>
+                        <br>
+                        phone: 
+                        <a href="#" class="linkContato">
+                            123-456-7890
+                        </a>
+                    </p>
 
-                        <hr>
+                    <hr>
 
-                        <p>PR | That Girl Pr, Sarah Brookstone</p>
-                        <p class="semDestaque">
-                            email: 
-                            <a href="#" class="linkContato">
-                                info@mysite.com
-                            </a>
-                            <br>
-                            <br>
-                            phone: 
-                            <a href="#" class="linkContato">
-                                123-456-7890
-                            </a>
-                        </p>
+                    <p>PR | That Girl Pr, Sarah Brookstone</p>
+                    <p class="semDestaque">
+                        email: 
+                        <a href="#" class="linkContato">
+                            info@mysite.com
+                        </a>
+                        <br>
+                        <br>
+                        phone: 
+                        <a href="#" class="linkContato">
+                            123-456-7890
+                        </a>
+                    </p>
                 </div>
-            </div>
+            </section>
+        </main>
 
-            <div class="rodapeHome">Copyright - Jane Doe</div>
+        <footer class="rodapeHome">Copyright - Jane Doe</footer>
 
     </body>
 </html>

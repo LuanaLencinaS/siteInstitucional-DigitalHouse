@@ -8,6 +8,10 @@ body {
     text-align: center;
 }
 
+header {
+    border: 1px solid #c5c5c5;
+}
+
 .menu {
     list-style-type: none;
     /* display: inline-flex; */
@@ -94,4 +98,14 @@ a{
 
 .listaNone li {
     margin: 10px;
+}
+
+.contact-form form *{
+    /* o asterisco informa que se aplica para todos os filhos dentro dda classe ou tag*/
+    display: block;
+}
+
+.contact-form form, iframe {
+    display: inline-block;
+    width: 49%;
 }
